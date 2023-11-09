@@ -1,0 +1,143 @@
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	position: center;
+	background: lightblue;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	border: solid 3px;
+	margin: 30px 100px 30px 100px;
+	padding: 30px 0px 30px 0px;
+	border-radius: 30px;
+}
+
+.intro{
+	text-align: center;
+	justify-content: center;
+}
+
+.cv{
+	position: relative;
+	width: 200%;
+	max-width: 1000px;
+	min-height: 800px;
+	background: #fff;
+	margin: 0px 150px 0px 150px;
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	box-shadow: 0 35px 55px rgb(0, 0, 0, 0.1);
+	border: solid 3px;
+	border-radius: 10px;
+}
+
+.cv .left-side {
+	position: relative;
+	margin: 0;
+	padding: 20px 0px 0px 20px;
+
+}
+
+.cv .right-side{
+	position: relative;
+	background: #fff;
+	border-left: 2px solid black;
+	padding: 20px 0px 0px 20px;
+}
+
+.cv .Middle{
+	position: relative;
+	border-left: 2px solid black ;
+	padding: 20px 20px 0px 20px;
+}
+
+.profiletext{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-bottom: 1px solid black;
+	padding-right: 10px;
+	margin-right: 10px;
+}
+
+.profiletext .imgbox{
+	position: relative;
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.profiletext .imgbox img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 90px;
+	height: 90px;
+	object-fit: cover;
+}
+
+.profiletext h2 {
+	font-size: 0.9em;
+	margin-top: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 600;
+	line-height: 1.4em;
+}
+
+.profiletext h2 span{
+	text-transform: lowercase;
+	font-size: 1em;
+	font-weight: 300;
+}
+
+.education{
+	text-align: center;
+	width: 100%;
+}
+
+.education table{
+	border: solid 1px;
+	width: 100%;
+	}
+.education table th {
+	border: solid 1px;
+}
+
+.education table td{
+	border: solid 1px;
+}
+
+
+@media only screen and (max-width: 600px){
+
+body{
+	position: center;
+	background: lightblue;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	border: solid 3px;
+	margin: 100px;
+	padding: 0px;
+	border-radius: 30px;
+	}
+.cv{
+	position: relative;
+	width: 100%;
+	max-width: 1000px;
+	min-height: 800px;
+	background: #fff;
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	box-shadow: 0 35px 55px rgb(0, 0, 0, 0.1);
+	border: solid 3px;
+	border-radius: 10px;
+	}
+}
