@@ -105,3 +105,16 @@ body{
 .education table td{
 	border: solid 1px;
 }
+.tags video{
+	padding-left: 150px;
+	width: 600px;
+}
+
+.tags audio{
+	padding-left: 150px;
+	width: 600px;	
+}
+.tags iframe{
+	padding-left: 150px;
+	width: 600px;
+}
